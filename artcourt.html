@@ -1,0 +1,73 @@
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دادگاه هنر</title>
+  <style>
+    :root {
+   
+      --bg-color: #98a2e4;
+     
+   
+      --text-color: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Vazirmatn", Tahoma, sans-serif;
+      position: relative;
+      overflow: hidden;
+    }
+
+   
+    .headline {
+      font-size: clamp(3rem, 10vw, 6.5rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      user-select: none;
+    }
+
+  
+    .logo-container {
+      position: absolute;
+      bottom: 2rem;
+      left: 2rem; 
+      z-index: 10;
+    }
+
+    .logo-container img {
+      max-height: 100px;
+      width: auto;
+      display: block;
+      opacity: 0.5;
+      transition: opacity 0.2s ease;
+    }
+
+    .logo-container img:hover {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <h1 class="headline">...coming soon</h1>
+  </main>
+
+  <footer class="logo-container">
+    <img src="unnamed.png" alt="artcourt">
+  </footer>
+
+</body>
+</html>
